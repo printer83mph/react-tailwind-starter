@@ -8,6 +8,17 @@ module.exports = {
     "public": "/"
   },
   plugins: [
+    ["@snowpack/plugin-babel",
+      {
+        transformOptions: {
+          presets: [
+            "@babel/preset-react",
+            "@babel/preset-typescript",
+            "@babel/preset-env"
+          ]
+        }
+      }
+    ],
     ["@snowpack/plugin-postcss",
       {
         config: {

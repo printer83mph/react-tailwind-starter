@@ -1,7 +1,7 @@
 import React from 'react'
 
 const App = () => (
-  <div>
+  <div className="h-screen flex flex-col justify-center items-center">
     Hello World!
   </div>
 )
