@@ -41,7 +41,7 @@
   },
   "scripts": {
     "dev": "snowpack dev",
-    "build": "snowpack"
+    "build": "snowpack build"
   },
   "browserslist": [
     "defaults"
